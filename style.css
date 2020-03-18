@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-image: url('bg.jpeg');
@@ -67,4 +71,11 @@ button {
     border-radius: 2px;
     font-family: inherit;
     font-size: 16px;
+}
+
+footer {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
 }
