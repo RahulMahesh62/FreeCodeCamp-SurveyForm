@@ -1,0 +1,70 @@
+@import url('font.css');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('bg.jpeg');
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    padding: 30px 20px;
+    max-width: 450px;
+    margin: 40px auto;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    font-family: inherit;
+}
+
+h1 {
+    margin-bottom: 0;
+    color: white;
+}
+
+h1+p {
+    margin-top: 0;
+    color: white;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #05c46b;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 1px solid #05c46b;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 16px;
+}
